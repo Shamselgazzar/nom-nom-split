@@ -51,6 +51,11 @@ export default function Home() {
           ></Image>
         </div>
       </MaxWidthWrapper>
+      <div>
+        <footer>
+          <p  className="text-right">Illustrations by <a href="https://storyset.com/work" target="_blank">Storyset</a></p>
+        </footer>
+      </div>
     </div>
   );
 }
