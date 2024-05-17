@@ -13,11 +13,11 @@ const Navbar = () => {
             NomNom<span className='text-blue-600 font-semibold'>Split</span>
           </div>
         </Link>
-        <div>
-          <Link href='/'>Homepage</Link>
-          <Link href='/about'>About</Link>
-          <Link href='/contact'>Contact</Link>
-        </div>
+          <div className='space-x-4'>
+            <Link href='/'>Homepage</Link>
+            <Link href='/about'>About</Link>
+            <Link href='/contact'>Contact</Link>
+          </div>
       </MaxWidthWrapper>
     </nav>
   );
