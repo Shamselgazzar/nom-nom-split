@@ -5,12 +5,12 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className='bg-slate-50'>
+    <div className='bg-slate-100'>
       <MaxWidthWrapper className='pt-5 pb-10 flex flex-col lg:flex-row justify-between items-center'>
-        <div className='w-1/2'>
+        <div className='lg:w-1/2'>
           <h1
             className='relative w-fit mt-16 font-bold !leading-tight text-balance tracking-tight
-            text-gray-800 text-5xl md:text-6xl lg:text-7xl'
+            text-gray-800 text-5xl md:text-6xl lg:text-7xl lg:text-left text-center'
           >
             Calculate your share of <span className='bg-blue-500'>food</span> in
             seconds
@@ -21,13 +21,13 @@ export default function Home() {
             <span className='font-semibold'>It is that easy!</span> With
             NomNomSplit, calculating your share of food has never been easier.
           </p>
-          <div className='flex max-w-md justify-end gap-4'>
+          <div className='flex flex-col lg:flex-row lg:w-10/12 gap-4 w-2/3 mx-auto lg:mx-0'>
             <Link
               href={''}
               className={`${buttonVariants({
                 size: 'lg',
                 variant: 'outline',
-              })} flex-1`}
+              })} lg:flex-1`}
             >
               Enter a session
             </Link>
@@ -36,7 +36,7 @@ export default function Home() {
               className={`${buttonVariants({
                 size: 'lg',
                 variant: 'default',
-              })} flex-1`}
+              })} lg:flex-1`}
             >
               Sign up now
             </Link>
