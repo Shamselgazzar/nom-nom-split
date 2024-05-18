@@ -6,8 +6,8 @@ const ContactPage = () => {
       <MaxWidthWrapper className='py-16 flex flex-col lg:flex-row'>
         <div className='lg:w-1/2 lg:pr-12 mb-8 lg:mb-0 text-center lg:text-left lg-mt-20 w-full sm:w-10/12 lg:mx-0 mx-auto'>
           <h1
-            className='w-fit mt-16 font-bold !leading-tight text-balance tracking-tight
-            text-gray-800 text-5xl md:text-6xl lg:text-7xl block w-full'
+            className='mt-16 font-bold !leading-tight text-balance tracking-tight
+            text-gray-800 text-5xl md:text-6xl lg:text-7xl'
           >
             Contact Us
           </h1>
@@ -15,7 +15,7 @@ const ContactPage = () => {
             We&apos;d love to hear from you! Whether you have questions,
             feedback, or just want to say hello, feel free to reach out to us
             using the contact form below or via email at
-            <span className='font-bold inline'>contact@nomnomsplit.com</span>.
+            <span className='font-bold inline'> contact@nomnomsplit.com</span>.
           </p>
         </div>
         <div className='lg:w-1/2 w-full md:w-8/12 sm:w-10/12 lg:mx-0 mx-auto lg:mt-0'>

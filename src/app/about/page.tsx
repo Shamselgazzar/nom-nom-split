@@ -7,7 +7,7 @@ const AboutPage = () => {
       <MaxWidthWrapper className='py-16 flex flex-col lg:flex-row items-center text-center lg:text-left'>
         <div className='lg:w-1/2 lg:pr-12 mb-8 lg:mb-0'>
           <h4
-            className='w-full w-fit font-bold !leading-tight text-balance tracking-tight
+            className='font-bold !leading-tight text-balance tracking-tight
             text-gray-800 text-5xl md:text-6xl lg:text-7xl '
           >
             About NomNomSplit
