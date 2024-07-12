@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import { Salad } from 'lucide-react';
+import NavLinks from './navlinks/navlinks';
 
 const Navbar = () => {
   return (
@@ -13,11 +14,7 @@ const Navbar = () => {
             NomNom<span className='text-blue-600 font-semibold'>Split</span>
           </div>
         </Link>
-          <div className='space-x-4'>
-            <Link href='/'>Homepage</Link>
-            <Link href='/about'>About</Link>
-            <Link href='/contact'>Contact</Link>
-          </div>
+        <NavLinks />
       </MaxWidthWrapper>
     </nav>
   );

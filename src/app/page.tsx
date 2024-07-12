@@ -12,10 +12,10 @@ export default function Home() {
             className='relative w-fit mt-16 font-bold !leading-tight text-balance tracking-tight
             text-gray-800 text-5xl md:text-6xl lg:text-7xl lg:text-left text-center'
           >
-            Calculate your share of <span className='bg-blue-500'>food</span> in
+            Calculate your share of <span className='bg-blue-500 inline-block'>food</span> in
             seconds
           </h1>
-          <p className='mt-4 mb-10 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap'>
+          <p className='mt-2 mb-10 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap'>
             Sign up and create a session or enter a session without having to
             sign up.
             <span className='font-semibold'>It is that easy!</span> With
@@ -51,11 +51,7 @@ export default function Home() {
           ></Image>
         </div>
       </MaxWidthWrapper>
-      <div>
-        <footer>
-          <p  className="text-right">Illustrations by <a href="https://storyset.com/work" target="_blank">Storyset</a></p>
-        </footer>
-      </div>
+      
     </div>
   );
 }
